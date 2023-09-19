@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--verly-light-gray);
+}
+
+:root {
+    --red-clr: hsl(0, 78%, 62%);
+    --cyan-clr: hsl(180, 62%, 55%);
+    --orange-clr: hsl(34, 97%, 64%);
+    --blue-clr: hsl(212, 86%, 64%);
+    --very-dark-blue-clr: hsl(234, 12%, 34%);
+    --grayish-blue-clr: hsl(229, 6%, 66%);
+    --verly-light-gray: hsl(0, 0%, 98%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.four-card-feature {
+    padding: 4rem 0;
+}
+
+.four-card-feature-text {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.four-card-feature-h1 {
+    font-weight: 200;
+    line-height: 1.5em;
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+    color: var(--very-dark-blue-clr);
+}
+
+.four-card-feature-h1 span {
+    font-weight: 600;
+}
+
+.four-card-feature-p {
+    color: var(--grayish-blue-clr);
+    font-size: .875rem;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    border-top: 4px solid;
+    box-shadow: 0 10px 30px -20px var(--blue-clr);
+}
+
+.card-h3 {
+    font-weight: 600;
+    color: var(--very-dark-blue-clr);
+    margin-bottom: .25rem;
+}
+
+.card-p {
+    font-size: .875rem;
+    margin-bottom: 2rem;
+    color: var(--grayish-blue-clr);
+}
+
+.card-img {
+    text-align: right;
+}
+
+.cyan-bordered-card {
+    border-color: var(--cyan-clr);
+}
+
+.red-bordered-card {
+    border-color: var(--red-clr);
+}
+
+.orange-bordered-card {
+    border-color: var(--orange-clr);
+}
+
+.blue-bordered-card {
+    border-color: var(--blue-clr);
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .four-card-feature-text {
+        width: 50%;
+        margin: 0 auto 5rem auto;
+    }
+
+    .four-card-feature-h1 {
+        font-size: 2.25rem;
+    }
+
+    .four-card-feature-p {
+        font-size: 1.125rem;
+    }
+
+    .four-card-feature-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .four-card-feature-col {
+        width: calc(33.333% - 2rem);
+    }
+
+    .card {
+        margin-bottom: initial;
+        padding: 2rem;
+    }
+
+    .red-bordered-card {
+        margin-bottom: 2rem;
+    }
+
+    .attribution {
+        margin-top: 2rem;
+    }
+}
