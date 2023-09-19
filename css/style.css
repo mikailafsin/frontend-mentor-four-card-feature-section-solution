@@ -144,6 +144,11 @@ body {
         padding: 2rem;
     }
 
+    .card-h3 {
+        font-size: 1.25rem;
+        margin-bottom: .625rem;
+    }
+
     .red-bordered-card {
         margin-bottom: 2rem;
     }
