@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge I gained more control over using the box-shadow feature.
+In this challenge I gained more control over using the `box-shadow` property.
 
 
 ```css
@@ -61,7 +61,7 @@ In this challenge I gained more control over using the box-shadow feature.
 
 ### Continued development
 
-In future projects, I will practice more about the box-shadow property and focus on supporting the practice with different variations.
+In future projects, I will practice more about the `box-shadow` property and focus on supporting the practice with different variations.
 
 ## Author
 
